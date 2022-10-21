@@ -84,19 +84,19 @@ const NavDrawer = ({handleClose, isVisible}) => {
                             </Link>
                         </motion.li>
                         <motion.li className='flex justify-evenly text-white z-15' variants={phaseIn}>
-                            <a onClick={handleClose}>
+                            <a onClick={handleClose} href="https://github.com/luis-ay">
                                 <FiGithub/>
                             </a>
                         
-                            <a onClick={handleClose}>
+                            <a onClick={handleClose} href="www.linkedin.com/in/luis-a-159627118">
                                 <AiOutlineLinkedin/>
                             </a>
                         
-                            <a onClick={handleClose}>
+                            <a onClick={handleClose} href="https://facebook.com/luis38ay">
                                 <AiOutlineFacebook/>
                             </a>
                         
-                            <a onClick={handleClose}>
+                            <a onClick={handleClose} href="https://www.instagram.com/luis_ay_/">
                                 <AiOutlineInstagram/>
                             </a>
                         </motion.li>

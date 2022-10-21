@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div id="contact" className='text-center text-white h-64 font-sfpro'>
         <h1 className='mb-4 text-3xl'>Contact</h1>
-        <p className='mb-8'>Feel free to contact me through<br></br> <span className='text-[#319fff] underline underline-offset-2'>email</span> or social media.</p>
+        <p className='mb-8'>Feel free to contact me through<br></br> <a href="mailto: luis.38.ayala@gmail.com"><span className='text-[#319fff] underline underline-offset-2'>email</span></a> or social media.</p>
         <div className='flex justify-evenly'>
               <a className='scale-150' href="https://github.com/luis-ay">
                   <FiGithub/>
