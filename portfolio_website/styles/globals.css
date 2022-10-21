@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    #__next {
+        @apply h-full bg-[#0e0e0e];
+    }
+    html {
+        scroll-behavior: smooth
+    }
+    body {
+        @apply h-full;
+    }
+}
+@layer base {
+    @font-face {
+      font-family: SF-Pro-Bold;
+      src: url(../public/fonts/SF-Pro-Display-Bold.otf);
+    }
+    @font-face {
+      font-family: SF-Pro-Light;
+      src: url(../public//fonts//SF-Pro-Display-Light.otf);
+    }
+  }
