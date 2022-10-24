@@ -11,7 +11,7 @@ const Contact = () => {
               <a className='scale-150' href="https://github.com/luis-ay">
                   <FiGithub/>
               </a>
-              <a className='scale-150' href="www.linkedin.com/in/luis-a-159627118">
+              <a className='scale-150' href="https://linkedin.com/in/luis-a-159627118">
                   <AiOutlineLinkedin/>
               </a>
               <a className='scale-150' href="https://facebook.com/luis38ay">

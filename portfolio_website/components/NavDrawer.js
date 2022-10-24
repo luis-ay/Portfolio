@@ -88,7 +88,7 @@ const NavDrawer = ({handleClose, isVisible}) => {
                                 <FiGithub/>
                             </a>
                         
-                            <a onClick={handleClose} href="www.linkedin.com/in/luis-a-159627118">
+                            <a onClick={handleClose} href="https://linkedin.com/in/luis-a-159627118">
                                 <AiOutlineLinkedin/>
                             </a>
                         
