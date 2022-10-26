@@ -10,7 +10,7 @@ const NavBar = () => {
                     luis
                     <span className="text-[#319fff]">_ay</span>
             </h1>
-            <div className="w-1/3 flex justify-between my-auto text-xl pr-8">
+            <div className="w-5/12 flex justify-between my-auto text-xl pr-8">
                 <motion.button className="p-2 bg-[#2d2d2d] rounded-xl" whileHover={{scale:1.05}}>
                     <Link  href="/">
                         <a className="opacity-80 hover:opacity-100">Resume</a>
@@ -21,6 +21,9 @@ const NavBar = () => {
                 </Link>
                 <Link scroll={false} href="#skills">
                     <a className="opacity-80 hover:opacity-100 py-2">Skills and Tech</a>
+                </Link>
+                <Link scroll={false} href="#projects">
+                    <a className="opacity-80 hover:opacity-100 py-2">Projects</a>
                 </Link>
                 <Link scroll={false} href="#contact">
                     <a className="opacity-80 hover:opacity-100 py-2">Contact</a>

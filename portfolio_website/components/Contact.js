@@ -4,7 +4,7 @@ import { AiOutlineLinkedin, AiOutlineFacebook, AiOutlineInstagram } from "react-
 
 const Contact = () => {
   return (
-    <div id="contact" className='text-center text-white h-64 font-sfpro'>
+    <div id="contact" className='text-center text-white h-64 font-sfpro md:w-1/2 md:h-48 mx-auto'>
         <h1 className='mb-4 text-3xl'>Contact</h1>
         <p className='mb-8'>Feel free to contact me through<br></br> <a href="mailto: luis.38.ayala@gmail.com"><span className='text-[#319fff] underline underline-offset-2'>email</span></a> or social media.</p>
         <div className='flex justify-evenly'>
