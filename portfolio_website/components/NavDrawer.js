@@ -68,14 +68,14 @@ const NavDrawer = ({handleClose, isVisible}) => {
                                 <a onClick={handleClose}>About Me</a>
                             </Link>
                         </motion.li>
-                        <motion.li className='pl-10 text-white z-15' variants={phaseIn}>
-                            <Link scroll={false} href="#skills" >
-                                <a className='text-white z-25' onClick={handleClose}>Skills and Technologies</a>
-                            </Link>
-                        </motion.li>
                         <motion.li scroll={false} className='pl-10 text-white z-15' variants={phaseIn}>
                             <Link href="#projects" >
                                 <a onClick={handleClose}>Projects</a>
+                            </Link>
+                        </motion.li>
+                        <motion.li className='pl-10 text-white z-15' variants={phaseIn}>
+                            <Link scroll={false} href="#skills" >
+                                <a className='text-white z-25' onClick={handleClose}>Skills and Technologies</a>
                             </Link>
                         </motion.li>
                         <motion.li className='pl-10 text-white z-15' variants={phaseIn}>

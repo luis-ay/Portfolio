@@ -6,7 +6,7 @@ import { DiMysql } from "react-icons/di";
 
 const Skills = () => {
   return (
-    <div id="skills" className='text-white md:mx-28 scroll-mt-16 md:scroll-mt-32'>
+    <div id="skills" className='text-white md:m-28 scroll-mt-16 md:scroll-mt-32'>
       <div id='container' className='flex-col bg-[#2d2d2d] p-4 rounded-3xl m-4'>
         <h1 className='text-2xl mb-4 font-sfpro'>Tech</h1>
         <div className='font-sfprolight'>

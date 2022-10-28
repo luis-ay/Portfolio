@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <div className={`sticky top-0 left-0 w-full bg-[#0e0e0e] z-30`}>
             <NavBar/>
-            <div className="sticky md:hidden flex align-middle justify-between z-20 bg-[#0e0e0e]">
+            <div className="sticky xl:hidden flex align-middle justify-between z-20 bg-[#0e0e0e]">
                 <Link href='/'>
                     <h1 className="my-auto ml-3 py-2 text-[#e2e2e2] font-sfpro text-3xl">
                         luis
@@ -25,7 +25,7 @@ const Header = () => {
                     </h1>
                 </Link>
                 <button
-                    className="flex flex-col my-auto h-8 w-10  justify-center items-center group z-30 md:hidden"
+                    className="flex flex-col my-auto h-8 w-10  justify-center items-center group z-30 xl:hidden"
                     onClick={() => handleDrawerOpen()}
                     >
                     <div
